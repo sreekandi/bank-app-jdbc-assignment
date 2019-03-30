@@ -1,0 +1,12 @@
+Withdraw Exception:
+com.capgemini.bankapp.exception.LowBalanceException: you don't have sufficient fund
+	at com.capgemini.bankapp.service.impl.BankAccountServiceImpl.withdraw(BankAccountServiceImpl.java:36)
+	at com.capgemini.bankapp.client.BankAccountClient.main(BankAccountClient.java:74)
+2019-03-27 12:06:21,765[yyyy-MM-dd HH:mm:ss]-0 - [main] ERROR com.capgemini.bankapp.client.BankAccountClient  Withdraw Exception:
+com.capgemini.bankapp.exception.LowBalanceException: you don't have sufficient fund
+	at com.capgemini.bankapp.service.impl.BankAccountServiceImpl.withdraw(BankAccountServiceImpl.java:36)
+	at com.capgemini.bankapp.client.BankAccountClient.main(BankAccountClient.java:74)
+2019-03-27 12:16:05,782[yyyy-MM-dd HH:mm:ss]-584017 - [main] ERROR com.capgemini.bankapp.client.BankAccountClient  Withdraw Exception:
+com.capgemini.bankapp.exception.LowBalanceException: you don't have sufficient fund
+	at com.capgemini.bankapp.service.impl.BankAccountServiceImpl.withdraw(BankAccountServiceImpl.java:36)
+	at com.capgemini.bankapp.client.BankAccountClient.main(BankAccountClient.java:74)
